@@ -1,0 +1,54 @@
+Aws viva
+--------
+--software development and it operation lab (pc-cs 694)
+
+--AWS--> Amazon Web Services
+Amazon Web Services (AWS) is a cloud computing platform that offers a wide range of services, including compute, storage, databases, analytics, networking, 
+
+-- what is bucket in aws ?
+   => A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object has a key (or key name), which is the unique identifier for the object within the bucket.
+
+--
+
+What is a static website?
+
+A static website is made up of a fixed number of pre-built files stored on a web server. These files are written in HTML, CSS, and JavaScript, which are called “client-side” languages because they execute in the user’s web browser. When a user requests a page from the server with a URL, the server returns the HTML file that is specified by the URL and any accompanying CSS and/or JavaScript files.
+
+During this exchange, the web server does not alter the files before they’re shipped to the user, so the web page will look the exact same to everyone who requests it. The content is “static” — the only way to change how the website looks is by manually changing the content of the files.
+
+
+What is a dynamic website?
+
+Unlike a static website that displays the same content to all visitors in the same format, a dynamic website presents different information to different visitors. The content that a visitor sees can be determined by several factors, such as their location, local time, settings and preferences, and/or actions they’re taken on the website (e.g., shopping habits), making for a more tailored and interactive experience.
+
+To achieve greater flexibility on the front end, dynamic websites require more complexity on the back end. These websites don’t store each page as its own HTML file. Instead, web servers build pages “on-the-fly” — when the user requests a page, the server pulls information from one or multiple databases and constructs an HTML file custom-built for the client. Once the page is built, the HTML file is shipped back to the user’s browser.
+
+--
+
+Why S3 is used in AWS?
+
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
+
+What is EC2 in AWS?
+
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2's simple web service interface allows you to obtain and configure capacity with minimal friction.
+
+--
+
+What are the 7 types of EC2 instances?
+
+Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications.
+
+7 Types of EC2 Instances And Their Usage.
+    General Purpose Instances.
+    Compute Optimized Instances.
+    Memory-Optimized Instances.
+    Storage Optimized Instances.
+    Accelerated Computing / GPU Instances.
+    High Memory Instances.
+    Previous Generation Instances.
+
+--
+IAM
+----
+AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
