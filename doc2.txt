@@ -33,6 +33,10 @@ What is EC2 in AWS?
 
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2's simple web service interface allows you to obtain and configure capacity with minimal friction.
 
+instance 
+---------
+ an instance is a virtual server that runs applications on the AWS cloud. 
+
 --
 
 What are the 7 types of EC2 instances?
