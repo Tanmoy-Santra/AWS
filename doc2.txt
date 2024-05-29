@@ -56,3 +56,10 @@ Amazon EC2 provides a wide selection of instance types optimized to fit differen
 IAM
 ----
 AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
+
+MFA
+---
+Multi-factor authentication (MFA) is a security feature in Amazon Web Services (AWS) Identity and Access Management (IAM) that requires a second authentication factor in addition to a user's password and username. MFA adds an extra layer of protection to AWS account settings and resources. 
+
+
+
